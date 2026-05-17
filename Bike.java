@@ -13,6 +13,9 @@ public class Bike extends Vehicle {
     public String getsize(){
         return size;
     }
+    public void pedal(){
+        IO.println("Pedaling the bike...");
+    }
     @Override
     public void honk(){
         IO.println("Bike Honks: Ring Ring!");
