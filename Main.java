@@ -105,7 +105,6 @@ public class Main{
                 IO.println("Invalid input! Try again.");
                 input.nextLine();
             }
-               input.close();
         }
     }
 }
